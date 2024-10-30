@@ -9,9 +9,9 @@ export function Header() {
                 <a href=""><Link to="/">Главная</Link></a>
                 <a href=""><Link to="/products">Продукция</Link></a>
                 <a href=""><Link to="/about">О нас</Link></a>
-                <a href=""><img src={'./public/images/cart.svg'} width={59} height={43} alt="" /></a>
+                <a href=""><Link to="/cart"><img src={'./public/images/cart.svg'} width={59} height={43} alt="" /></Link></a>
             </nav>
-            <a href=""><img src={'./public/images/user.svg'} width={50} height={45} alt="" /></a>
+            <a href=""><Link to="/registr"><img src={'./public/images/user.svg'} width={50} height={45} alt="" /></Link></a>
 
         </div>
            
